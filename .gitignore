@@ -1,0 +1,5 @@
+# MySQL runtime data (IMPORTANT)
+**/mysql-data/
+*.sock
+*.pid
+*.log
