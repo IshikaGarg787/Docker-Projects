@@ -3,6 +3,15 @@
 
 This is a simple Flask app that interacts with a MySQL database. The app allows users to submit messages, which are then stored in the database and displayed on the frontend.
 
+## About This Project
+
+A two-tier architecture Flask application connected with a MySQL database.
+
+## What I learned
+- Multi-container setup using docker-compose
+- Service-to-service networking (Flask ↔ MySQL)
+- Environment variables in Docker
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
@@ -126,5 +135,11 @@ docker run -d \
 
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
+
+## Credits
+
+This project was built while following a Docker tutorial by TrainWithShubham (YouTube).
+
 ```
+
 
