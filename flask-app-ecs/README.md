@@ -104,3 +104,16 @@ High-level steps to deploy this app on ECS:
 3. **Create ECS Service** — attach to a cluster, configure desired count, link to a load balancer
 
 4. **Configure ALB** — target group pointing to port 80, use `/health` as the health check path
+
+## Credits
+
+This project was built while following a Docker tutorial by TrainWithShubham (YouTube).
+
+## About This Project
+
+A Flask application designed for container deployment (ECS-style setup).
+
+## What I learned
+- Dockerizing Flask applications
+- Exposing Flask APIs via containers
+- Basic deployment structure for cloud-ready apps
