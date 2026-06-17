@@ -1,6 +1,11 @@
 # Simple Notes App for TWS Community
 This is a simple notes app built with React and Django.
 
+## About This Project
+
+A Django-based notes application containerized using Docker.
+
+
 ## Requirements
 1. Python 3.9
 2. Node.js
@@ -29,15 +34,13 @@ Install Nginx reverse proxy to make this application available
 `sudo apt-get update`
 `sudo apt install nginx`
 
-## Credits
-
-This project was built while following a Docker tutorial by TrainWithShubham (YouTube).
-
-## About This Project
-
-A Django-based notes application containerized using Docker.
-
 ## What I learned
 - Building Docker images for Python/Django apps
 - Running Django inside containers
 - Managing dependencies using requirements.txt
+
+
+## Credits
+
+This project was built while following a Docker tutorial by TrainWithShubham (YouTube).
+
